@@ -1,4 +1,4 @@
-package com.pepe.ejemmplokafka3.Topologia;
+package com.pepe.ejemplokafka.Topologia;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.common.serialization.Serdes;
@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 @Component
 @Slf4j
 public class MiPrimerStreamTopology {
-    public static String MENSAJE = "mensaje";
+    public static String MENSAJE = "pruebita";
     public static String OUTPUT_MENSAJE = "output-mensaje";
     @Autowired
     public void procesar (StreamsBuilder streamsBuilder){

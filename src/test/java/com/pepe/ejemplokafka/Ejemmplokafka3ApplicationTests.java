@@ -1,4 +1,4 @@
-package com.pepe.ejemmplokafka3;
+package com.pepe.ejemplokafka;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

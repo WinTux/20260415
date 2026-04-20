@@ -1,8 +1,14 @@
-package com.pepe.ejemmplokafka3.Modelos;
+package com.pepe.ejemplokafka.Modelos;
 public class Usuario {
     private int id;
     private String nombre;
     private String apellido;
+
+    public Usuario() {
+        id = 0;
+        nombre = "";
+        apellido = "";
+    }
 
     public Usuario(int id, String nombre, String apellido) {
         this.id = id;
